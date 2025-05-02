@@ -645,8 +645,8 @@ body.light-mode .hero .left input {
 }
 
 .cert-header img {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 250%;
+  max-height: 150%;
   object-fit: contain;
 }
 
