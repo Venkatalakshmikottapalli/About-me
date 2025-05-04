@@ -5,7 +5,7 @@ document.getElementById('hamburgerMenu').addEventListener('click', () => {
 });
 
 
-const texts = ["Venkatalakshmi Kottapalli", "AI-ML Enthusiast", "Data Scientist ", "Python Developer", "Azure DevOps" ];
+const texts = ["Venkatalakshmi Kottapalli", "AI-ML Enthusiast", "Data Scientist ", "Python Developer", "Azure DevOps Engineer" ];
 let index = 0;
 const dynamicText = document.getElementById("dynamic-text");
 const toggleButton = document.querySelector(".dark-mode-toggle");

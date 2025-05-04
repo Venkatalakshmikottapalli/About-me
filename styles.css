@@ -134,6 +134,7 @@ main.content {
   align-items: center;
   height: calc(100vh - 80px); /* Subtract header height */
   text-align: center;
+  padding-top: 100px;
 }
 
 .hero {
@@ -185,13 +186,16 @@ body.light-mode .hero .left input {
 }
 
 .hero .right img {
-  padding-bottom: 20%;
-  max-width: 530px;
-  height: auto;
-  width: 100%;
-  border-radius: 8px;
-  /* border-radius: 20%; */
+  margin-top: 8rem; 
+  padding-top: 100px;
+  padding-bottom: 1rem;      /* Use relative units for better responsiveness */
+  max-width: 100%;           /* Allow image to scale with container */
+  width: 330px;              /* Set a fixed width if you want consistency */
+  height: auto;              /* Maintain aspect ratio */
+  border-radius: 12px;       /* Slightly more rounded for a modern look */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Optional: adds depth */
 }
+
 
 /* Social media icon styles */
 .social-media {
@@ -644,7 +648,7 @@ container2 {
 .sub-t1{
   text-align: center;
   font-size: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   color: white;
 }
 
@@ -812,8 +816,8 @@ container2 {
 .section-heading h2 {
   font-size: 3rem;
   color: #1d4ed8; /* Blue theme */
-  margin-bottom: 40px;
-  margin-top: 400px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   animation: slideIn 1s ease-in-out;
 }
 
@@ -1126,4 +1130,55 @@ footer .heart {
 body.light-mode footer {
   background-color: #f3f4f6;
   color: #1e293b;
+}
+
+
+
+
+.testimonial-container {
+  overflow: hidden;
+  white-space: nowrap;
+  /*background-color: #f9f9f9;*/
+  padding: 30px 0;
+  width: 80%; /* or set to fixed width like 1000px */
+  height: 350px; /* adjust height as needed */
+  border-bottom: 100%;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+
+.testimonial-track {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.testimonial {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100%;
+  height: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
