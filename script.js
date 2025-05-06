@@ -1,8 +1,21 @@
 // script.js
-document.getElementById('hamburgerMenu').addEventListener('click', () => {
-  const navbar = document.getElementById('navbar');
+
+const hamburger = document.getElementById('hamburgerMenu');
+const navbar = document.getElementById('navbar');
+const navLinks = navbar.querySelectorAll('a');
+
+// Toggle menu visibility when hamburger is clicked
+hamburger.addEventListener('click', () => {
   navbar.classList.toggle('show');
 });
+
+// Hide menu when a link is clicked
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navbar.classList.remove('show');
+  });
+});
+
 
 
 const texts = ["Venkatalakshmi Kottapalli", "AI-ML Enthusiast", "Data Scientist ", "Python Developer", "Azure DevOps Engineer" ];
