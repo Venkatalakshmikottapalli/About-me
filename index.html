@@ -9,6 +9,11 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="more_pg_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body class="dark-mode">
   <header>
@@ -21,9 +26,12 @@
     <nav id="navbar">
       <a href="#home">Home</a>
       <a href="#about">About Me</a>
-      <a href="#skills">Skills</a>
-      <a href="Education.html">Education</a>
+      <a href="#skill">Skills</a>
+      <a href="#research">Research</a>
       <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#awards">Awards</a>
       <a href="#contact">Contact</a>
       <a href="Resume/Venkatalakshmi_Kottapalli_Resume.pdf" download="Venkatalakshmi_Kottapalli_Resume.pdf">Download Resume</a>
     </nav>
@@ -39,7 +47,7 @@
         <div class="changing-text">
           I'm<br> <span id="dynamic-text">Venkatalakshmi Kottapalli</span>
         </div>
-        <p>I leverage AI, Data Science, ML and end-to-end software solutions to creatively <br> solve real-world problems. Join me in exploring innovative ideas and building impactful solutions!</p>
+        <p>I leverage AI, Data Science, ML and software solutions to creatively <br> solve real-world problems. Join me in exploring innovative ideas and building impactful solutions!</p>
 
         <div class="social-media">
           <a href="https://www.linkedin.com/in/venkatalakshmi-kottapalli-bb3287237/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -58,268 +66,156 @@
   </main>
 </div>
 
-  <!-- About Section -->
+ <!-- About Section -->
 
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="Images/About.jpg" alt="Placeholder Image">  
-    </div>
-    <div class="about-text">
-      <h2>About<span>Me</span></h2>
-      <h4>AI/ML & Cloud Practitioner</h4>
-      <p>Hi, I'm Venkatalakshmi Kottapalli — an AI/ML and cloud technology practitioner with a solid foundation in data science, machine learning, and full-stack software development. I'm currently pursuing my Master's in Artificial Intelligence at Yeshiva University in New York City, maintaining a 4.0 GPA.
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="Images/About.jpg" alt="Placeholder Image">  
+  </div>
+  <div class="about-text">
+    <h2>About <span>Me</span></h2>
+    <h4>AI/ML & Data Science Practitioner</h4>
+    <p>
+      Hi, I'm Venkatalakshmi Kottapalli, an AI/ML professional with 4+ years of experience building intelligent systems, AI agents, RAG pipelines, and predictive models. I’m currently pursuing my Master’s in Artificial Intelligence at Yeshiva University, NYC (GPA: 4.0).
       <br>
-      I bring strong technical skills in Python, SQL, R, data analysis, deep learning, NLP, and Azure cloud development. My hands-on experience includes building end-to-end machine learning models, deploying intelligent systems, and developing web applications that solve real-world problems.
+      I specialize in machine learning, NLP, GenAI, and cloud solutions, with hands-on expertise in Python, SQL, R, LLMs, LangChain, LangGraph, and Azure. My experience includes developing and deploying scalable ML models, MLOps pipelines, AI-driven chatbots, and automation tools for real-world impact.
       <br>
-      I'm passionate about translating complex data into meaningful insights and crafting AI-driven solutions that deliver real impact. I thrive in dynamic environments, enjoy solving tough challenges, and am committed to continuous learning.
-      <br>
-      Feel free to explore my work and connect if you're interested in collaboration or want to learn more about my projects!
-      <br>
-      <br>
-      <a href="Education.html" class="btn-box">More About Me</a>
-    </div>
-  </section>
+      I’m passionate about solving complex problems, transforming data into actionable insights, and crafting AI-powered products that drive meaningful outcomes. Let’s connect if you're interested in collaborating or exploring my projects!
+      <br><br>
+      <a href="#education" class="btn-box">More About Me</a>
+    </p>
+  </div>
+</section>
 
-  <!-- Services Section -->
-  <section>
-    <div class="services" id="services">
-      <div class="container">
-        <h1 class="sub-title">My<span>Services</span></h1>
-        <div class="services-list">
-          <div>
-            <i class='bx bx-brain' style='color:#00eeff'></i>
-            <h2>AI & ML Engineering</h2>
-            <p>I specialize in developing AI and machine learning solutions that transform data into actionable insights. From classification and regression to deep learning and large language models (LLMs), I build intelligent systems that solve real-world challenges. My skills include supervised/unsupervised learning, NLP, and model deployment using tools like TensorFlow, PyTorch, and Hugging Face.</p>
-            <a href="services.html" class="read">Learn More</a>
-          </div>
-          
-          <div>
-            <i class='bx bx-bot' style='color:#00eeff'></i>
-            <h2>Conversational AI & Chatbots</h2>
-            <p>I design and build intelligent chatbots powered by NLP and LLMs. Using platforms like Hugging Face, Azure, and Dialogflow, I create personalized assistants for healthcare, education, and business. Whether it's disease prediction bots or citation-backed academic Q&A systems, I ensure seamless interactions that add value and enhance user experience.</p>
-            <a href="services.html" class="read">Learn More</a>
-          </div>
-          
-          <div>
-            <i class='bx bx-data' style='color:#00eeff'></i>
-            <h2>Data Science & Analytics</h2>
-            <p>With a deep foundation in statistics and mathematics, I deliver data-driven solutions using Python, SQL, and visualization tools like PowerBI and Seaborn. I specialize in fraud detection, customer behavior modeling, and campaign optimization. My work enables smarter decision-making through insightful analysis and clean visual storytelling.</p>
-            <a href="services.html" class="read">Learn More</a>
-          </div>
-          
-          <div>
-            <i class='bx bx-globe' style='color:#00eeff'></i>
-            <h2>Web App Development</h2>
-            <p>I build end-to-end AI-integrated web applications using Python, Flask, Streamlit, and APIs. From healthcare prediction apps to data dashboards, I design intuitive, responsive UIs backed by robust models. My full-stack experience ensures seamless deployment on platforms like Heroku, Azure, and AWS.</p>
-            <a href="services.html" class="read">Learn More</a>
-          </div>          
-        </div>
+
+<!-- Technical Skills -->
+<section id="skill">
+  <div class="container1">
+    <h1 class="heading1">Technical Skills</h1>
+
+    <div class="bar">
+      <i class='bx bxl-python' style='color:#c32ec9'></i> Python
+      <i class='bx bx-data' style='color:#00bcd4'></i> SQL
+      <i class='bx bx-code-block' style='color:#26a69a'></i> R
+      <i class='bx bx-network-chart' style='color:#673ab7'></i> Cypher
+      <div class="progress-line" style="--width: 95%;">
+        <span></span>
+        <div class="percentage">95%</div>
       </div>
     </div>
-  </section>
 
+    <div class="bar">
+      <i class='bx bxs-data' style='color:#ff9800'></i> PostgreSQL
+      <i class='bx bx-network-chart' style='color:#00bfa5'></i> Neo4j
+      <i class='bx bxs-data' style='color:#00bfa5'></i> FAISS
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
+      </div>
+    </div>
 
-  <!-- Skill Section -->
-  <h1 class="sub-title" id="skills">My<span>Skills</span></h1>
+    <div class="bar">
+      <i class='bx bx-bar-chart' style='color:#3f51b5'></i> Scikit-learn
+      <i class='bx bx-brain' style='color:#ff7043'></i> PyTorch
+      <i class='bx bx-chip' style='color:#4caf50'></i> TensorFlow
+      <i class='bx bx-pulse' style='color:#ff4081'></i> Keras
+      <i class='bx bx-camera' style='color:#607d8b'></i> OpenCV
+      <div class="progress-line" style="--width: 90%;">
+        <span></span>
+        <div class="percentage">90%</div>
+      </div>
+    </div>
 
-  <!-- Technical Skills -->
-  <section id="skill">
-    <div class="container1">
-      <h1 class="heading1">Technical Skills</h1>
-    
-      <div class="bar"><i style="color: #c32ec9;" class='bx bxl-python'></i>
-        <span>Python</span>
-        <div class="progress-line" style="--width: 95%;">
-          <span></span>
-          <div class="percentage">95%</div>
-        </div>
+    <div class="bar">
+      <i class='bx bx-bot' style='color:#673ab7'></i> LangChain
+      <i class='bx bx-bot' style='color:#009688'></i> LangGraph
+      <i class='bx bx-code-alt' style='color:#3f51b5'></i> NLTK
+      <i class='bx bx-code-alt' style='color:#00bfa5'></i> SpaCy
+      <div class="progress-line" style="--width: 90%;">
+        <span></span>
+        <div class="percentage">90%</div>
       </div>
-    
-      <div class="bar"><i class='bx bx-data' style='color: aqua'></i>
-        <span>SQL</span>
-        <div class="progress-line" style="--width: 90%;">
-          <span></span>
-          <div class="percentage">90%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-code-curly' style='color:#28b78d'></i>
-        <span>R</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-brain' style='color:#ff4d4d'></i>
-        <span>Cypher</span>
-        <div class="progress-line" style="--width: 80%;">
-          <span></span>
-          <div class="percentage">80%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-chat' style='color:#5e60ce'></i>
-        <span>PostgreSQL</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-cloud' style='color:#00c2cb'></i>
-        <span>Neo4j</span>
-        <div class="progress-line" style="--width: 75%;">
-          <span></span>
-          <div class="percentage">75%</div>
-        </div>
-      </div>
+    </div>
 
-      <div class="bar"><i class='bx bx-cloud' style='color:#00c2cb'></i>
-        <span>Scikit-learn</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
+    <div class="bar">
+      <i class='bx bx-cloud' style='color:#ff5722'></i> Azure
+      <i class='bx bx-cloud' style='color:#00c2cb'></i> AWS
+      <i class='bx bx-cloud' style='color:#00bfa5'></i> GCP
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
       </div>
-    
-      <div class="bar"><i class='bx bx-link' style='color:#fbbf24'></i>
-        <span>PyTorch</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-data' style='color:#f87171'></i>
-        <span>TensorFlow</span>
-        <div class="progress-line" style="--width: 80%;">
-          <span></span>
-          <div class="percentage">80%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-code-alt' style='color:#5392c2'></i>
-        <span>Keras</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i>
-        <span>LangChain</span>
-        <div class="progress-line" style="--width: 90%;">
-          <span></span>
-          <div class="percentage">90%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i style="color: #147bbc" class='bx bxl-css3'></i>
-        <span>LangGraph</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i style="color: #b0bc1e" class='bx bxl-javascript'></i>
-        <span>NLTK</span>
-        <div class="progress-line" style="--width: 70%;">
-          <span></span>
-          <div class="percentage">70%</div>
-        </div>
-      </div>
+    </div>
 
-      <div class="bar"><i style="color: #c32ec9;" class='bx bxl-python'></i>
-        <span>AWS</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
+    <div class="bar">
+      <i class='bx bx-bar-chart-alt' style='color:#ff9800'></i> Power BI
+      <i class='bx bx-code' style='color:#607d8b'></i> Visual Studio Code
+      <i class='bx bx-book' style='color:#3949ab'></i> Jupyter
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
       </div>
-    
-      <div class="bar"><i class='bx bx-data' style='color: aqua'></i>
-        <span>GCP</span>
-        <div class="progress-line" style="--width: 80%;">
-          <span></span>
-          <div class="percentage">80%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-code-curly' style='color:#28b78d'></i>
-        <span>Azure</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-brain' style='color:#ff4d4d'></i>
-        <span>Visual Studio Code</span>
-        <div class="progress-line" style="--width: 90%;">
-          <span></span>
-          <div class="percentage">90%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-chat' style='color:#5e60ce'></i>
-        <span>Power BI</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-cloud' style='color:#00c2cb'></i>
-        <span>API</span>
-        <div class="progress-line" style="--width: 85%;">
-          <span></span>
-          <div class="percentage">85%</div>
-        </div>
-      </div>
+    </div>
 
-      <div class="bar"><i class='bx bx-cloud' style='color:#00c2cb'></i>
-        <span>MLflow</span>
-        <div class="progress-line" style="--width: 75%;">
-          <span></span>
-          <div class="percentage">75%</div>
-        </div>
+    <!-- Application Frameworks & OOP -->
+    <div class="bar">
+      <i class='bx bx-window' style='color:#4caf50'></i> Streamlit
+      <i class='bx bx-rocket' style='color:#00bcd4'></i> FastAPI
+      <i class='bx bx-code-alt' style='color:#ff9800'></i> Flask
+      <i class='bx bx-cube' style='color:#9c27b0'></i> OOP Techniques
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
       </div>
+    </div>
+
+    <div class="bar">
+      <i class='bx bxl-docker' style='color:#00acc1'></i> MLOps
+      <i class='bx bx-cog' style='color:#00acc1'></i> MLflow
+      <i class='bx bx-git-branch' style='color:#3949ab'></i> CI/CD, GitHub
+      <i class='bx bxl-docker' style='color:#0091ea'></i> Docker & Kubernetes
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
+      </div>
+    </div>
     
-      <div class="bar"><i class='bx bx-link' style='color:#fbbf24'></i>
-        <span>CI/CD</span>
-        <div class="progress-line" style="--width: 80%;">
-          <span></span>
-          <div class="percentage">80%</div>
-        </div>
+    <div class="bar">
+      <i class='bx bx-bar-chart' style='color:#3f51b5'></i> Classification
+      <i class='bx bx-bar-chart' style='color:#3f51b5'></i> Regression
+      <i class='bx bx-bar-chart' style='color:#3f51b5'></i> Clustering
+      <i class='bx bx-bar-chart' style='color:#3f51b5'></i> Time-series Forecasting
+      <div class="progress-line" style="--width: 90%;">
+        <span></span>
+        <div class="percentage">90%</div>
       </div>
+    </div>
+
+    <div class="bar">
+      <i class='bx bx-brain' style='color:#7c4dff'></i>LLMs
+      <i class='bx bx-bot' style='color:#673ab7'></i> Prompt Engineering
+      <i class='bx bx-link' style='color:#fbbf24'></i> RAG
+      <i class='bx bx-bot' style='color:#009688'></i> Agentic AI
+      <i class='bx bx-bar-chart' style='color:#3f51b5'></i> Transformers
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
+      </div>
+    </div>
+
+    <div class="bar">
+      <i class='bx bx-target-lock' style='color:#9c27b0'></i> Object Detection
+      <i class='bx bx-image-add' style='color:#03a9f4'></i> Image segmentation
+      <i class='bx bx-shape-triangle' style='color:#f44336'></i> Image Generation
+      <div class="progress-line" style="--width: 85%;">
+        <span></span>
+        <div class="percentage">85%</div>
+      </div>
+    </div>
     
-      <div class="bar"><i class='bx bx-data' style='color:#f87171'></i>
-        <span>GitHub</span>
-        <div class="progress-line" style="--width: 90%;">
-          <span></span>
-          <div class="percentage">90%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i class='bx bx-code-alt' style='color:#5392c2'></i>
-        <span>Docker</span>
-        <div class="progress-line" style="--width: 75%;">
-          <span></span>
-          <div class="percentage">75%</div>
-        </div>
-      </div>
-    
-      <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i>
-        <span>Kubernetes</span>
-        <div class="progress-line" style="--width: 70%;">
-          <span></span>
-          <div class="percentage">70%</div>
-        </div>
-      </div>
-    </div>    
- </section>
+  </div>
+</section>
+
 
     <!-- professional_skill Section -->
     <section id="professional_skill"> 
@@ -327,7 +223,7 @@
       <div class="container2">
         <h1 class="heading1">Professional Skills</h1>
         <div class="radial-chart">
-          <div class="circle" style="--offset: 38%;">
+          <div class="circle" style="--offset: 75%;">
             <svg viewBox="0 0 120 120">
               <circle class="bg" cx="60" cy="60" r="55"></circle>
               <circle class="progress" cx="60" cy="60" r="55"></circle>
@@ -341,7 +237,7 @@
               <circle class="bg" cx="60" cy="60" r="55"></circle>
               <circle class="progress" cx="60" cy="60" r="55"></circle>
             </svg>
-            <div class="percentage">70%</div>
+            <div class="percentage">95%</div>
             <div class="text">Communication</div>
           </div>
   
@@ -350,16 +246,16 @@
               <circle class="bg" cx="60" cy="60" r="55"></circle>
               <circle class="progress" cx="60" cy="60" r="55"></circle>
             </svg>
-            <div class="percentage">75%</div>
+            <div class="percentage">80%</div>
             <div class="text">Problem-Solving</div>
           </div>
 
-          <div class="circle" style="--offset: 110%;">
+          <div class="circle" style="--offset: 75%;">
             <svg viewBox="0 0 120 120">
               <circle class="bg" cx="60" cy="60" r="55"></circle>
               <circle class="progress" cx="60" cy="60" r="55"></circle>
             </svg>
-            <div class="percentage">75%</div>
+            <div class="percentage">90%</div>
             <div class="text">Agile Framework</div>
           </div>
 
@@ -368,7 +264,7 @@
               <circle class="bg" cx="60" cy="60" r="55"></circle>
               <circle class="progress" cx="60" cy="60" r="55"></circle>
             </svg>
-            <div class="percentage">75%</div>
+            <div class="percentage">90%</div>
             <div class="text">Innovation</div>
           </div>
 
@@ -383,97 +279,102 @@
         </div>
       </div>
       <div class="exp">
-        <a href="Education.html" class="read1">View My exprience / Acedamics</a>
+        <a href="#education" class="read1">View My exprience / Acedamics</a>
       </div>
     </section>
   
 
-  <!-- Research Section -->
-  <section id="researches">
-    <div class="section-heading">
-      <h1 class="sub-t1">My <span>Research</span></h1>
+<!-- Research Section -->
+<section id="research">
+  <div class="section-heading">
+    <h1 class="sub-t1">My <span>Research</span></h1>
+  </div>
+
+  <div class="projects-wrapper">
+    <div class="project-card">
+      <h3>Generating Images Using GAN and Diffusion Models</h3>
+      <p>
+        This research explores generating realistic images using GAN and diffusion techniques. It compares different models to assess image quality and generation efficiency.
+      </p>
+      <img src="Images/gibleimage.png" alt="GAN and Diffusion Models" class="research-img">
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/391705055_Transforming_Real_Images_to_Studio_Ghibli_Style_A_Comparative_Study_of_Deep_Learning_Approaches#fullTextFileContent" target="_blank" rel="noopener noreferrer">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>GANs</span>
+        <span>Diffusion Models</span>
+        <span>Computer Vision</span>
+        <span>Deep Learning</span>
+        <span>Image Generation</span>
+      </div>
     </div>
 
-    <div class="projects-wrapper">
-      <div class="project-card">
-        <h3>EfficientNetB7-Based Key Points Detection for Vertebral Heart Score in Canines</h3>
-        <p>
-          This research explores an advanced computer vision approach to detect key points in canine thoracic radiographs using the EfficientNetB7 deep learning model. By automating vertebral heart score measurement, the model assists veterinarians in evaluating cardiac size accurately and efficiently. The study showcases promising performance on annotated X-ray datasets, highlighting its potential to support veterinary diagnostics.
-        </p>
-        <p>
-          📄 <a href="https://www.researchgate.net/publication/390746800_EfficientNetB7-Based_Key_Points_Detection_for_Vertebral_Heart_Score_in_Canines" target="_blank" rel="noopener noreferrer">
-            View Research Paper
-          </a>
-        </p>
-        <div class="tech-stack">
-          <span>EfficientNetB7</span>
-          <span>Computer Vision</span>
-          <span>Deep Learning</span>
-          <span>Medical Imaging</span>
-          <span>Veterinary AI</span>
-        </div>
+    <div class="project-card">
+      <h3>Detection of Canine Cardiomegaly Using Deep CNNs</h3>
+      <p>
+        This research presents a CNN-based approach to detect enlarged hearts in canine chest X-rays, helping improve early diagnosis accuracy in veterinary care.
+      </p>
+      <img src="Images/heart.png" alt="Canine Cardiomegaly" class="research-img">
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/390174202_Detection_of_Canine_Cardiomegaly_Using_Deep_Convolutional_Neural_Networks" target="_blank" rel="noopener noreferrer">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>CNN</span>
+        <span>Deep Learning</span>
+        <span>Veterinary Imaging</span>
+        <span>Cardiology</span>
+        <span>AI in Healthcare</span>
       </div>
-      
-      <div class="project-card">
-        <h3>Transforming Real Images to Studio Ghibli Style</h3>
-        <p>
-          This research investigates the transformation of real-world images into the artistic style of Studio Ghibli using deep learning techniques. The study compares multiple approaches—including neural style transfer and GAN-based models—to evaluate the quality and efficiency of stylization. The findings reveal insights into the challenges and effectiveness of each method in generating high-quality, animation-style visuals.
-        </p>
-        <p>
-          📄 <a href="https://www.researchgate.net/publication/391705055_Transforming_Real_Images_to_Studio_Ghibli_Style_A_Comparative_Study_of_Deep_Learning_Approaches#fullTextFileContent" target="_blank" rel="noopener noreferrer">
-            View Research Paper
-          </a>
-        </p>
-        <div class="tech-stack">
-          <span>Neural Style Transfer</span>
-          <span>GANs</span>
-          <span>Computer Vision</span>
-          <span>Deep Learning</span>
-          <span>Image Stylization</span>
-        </div>
-      </div>
-      <div class="project-card">
-        <h3>Detection of Canine Cardiomegaly Using Deep CNNs</h3>
-        <p>
-          This research presents a deep learning approach for detecting cardiomegaly (enlarged heart) in canines from chest radiographs. A Convolutional Neural Network (CNN) model was trained on annotated veterinary imaging data to classify heart conditions. The study showcases the ability of AI models to assist veterinarians in early and accurate diagnosis of cardiac issues in animals.
-        </p>
-        <p>
-          📄 <a href="https://www.researchgate.net/publication/390174202_Detection_of_Canine_Cardiomegaly_Using_Deep_Convolutional_Neural_Networks" target="_blank" rel="noopener noreferrer">
-            View Research Paper
-          </a>
-        </p>
-        <div class="tech-stack">
-          <span>CNN</span>
-          <span>Deep Learning</span>
-          <span>Veterinary Imaging</span>
-          <span>Cardiology</span>
-          <span>AI in Healthcare</span>
-        </div>
-      </div>
-      <div class="project-card">
-        <h3>UNet-Based Model for Segmenting Bird Sound Spectrograms</h3>
-        <p>
-          This study proposes a UNet-based deep learning model for accurately segmenting bird sound spectrograms from audio recordings. The model enhances the ability to isolate relevant acoustic features, which supports bird species identification and ecological research. Experimental results show significant improvements in spectrogram segmentation, enabling more efficient and precise analysis in the field of bioacoustics.
-        </p>
-        <p>
-          📄 <a href="https://www.researchgate.net/publication/391280934_UNet-Based_Deep_Learning_Model_for_Segmenting_Bird_Sound_Spectrograms" target="_blank" rel="noopener noreferrer">
-            View Research Paper
-          </a>
-        </p>
-        <div class="tech-stack">
-          <span>UNet</span>
-          <span>Deep Learning</span>
-          <span>Spectrogram Analysis</span>
-          <span>Bioacoustics</span>
-          <span>Segmentation</span>
-        </div>
-      </div>        
     </div>
-    
-    <div class="exp">
-      <a href="https://www.researchgate.net/profile/Venkatalakshmi-Kottapalli?ev=hdr_xprf" target="_blank" class="read1">View All Publications</a>
+
+    <div class="project-card">
+      <h3>UNet-Based Model for Segmenting Bird Sound Spectrograms</h3>
+      <p>
+        This research proposes a UNet model to segment bird sound spectrograms, improving acoustic feature isolation for better species identification.
+      </p>
+      <img src="Images/bird_sound.png" alt="Bird Sound Spectrograms" class="research-img">
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/391280934_UNet-Based_Deep_Learning_Model_for_Segmenting_Bird_Sound_Spectrograms" target="_blank" rel="noopener noreferrer">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>UNet</span>
+        <span>Deep Learning</span>
+        <span>Spectrogram Analysis</span>
+        <span>Bioacoustics</span>
+        <span>Segmentation</span>
+      </div>
+    </div>        
+
+    <div class="project-card">
+      <h3>Detection of Key Points Localization in Medical Images</h3>
+      <p>
+        This research explores deep learning methods to detect key points in canine chest X-rays, automating vertebral heart score calculation to aid veterinary diagnosis.
+      </p>
+      <img src="Images/heart_key.png" alt="Key Points Localization" class="research-img">
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/390746800_EfficientNetB7-Based_Key_Points_Detection_for_Vertebral_Heart_Score_in_Canines" target="_blank" rel="noopener noreferrer">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>Deep Learning</span>
+        <span>Computer Vision</span>
+        <span>Medical Imaging</span>
+        <span>Veterinary AI</span>
+      </div>
     </div>
-  </section>
+  </div>
+  
+  <div class="exp">
+    <a href="https://www.researchgate.net/profile/Venkatalakshmik23?ev=hdr_xprf" target="_blank" class="read1">View All Publications</a>
+  </div>
+</section>
 
 
   <!-- Project Section -->
@@ -482,48 +383,470 @@
       <h1 class="sub-t1">My<span>Projects</span></h1>
     </div>
     <div class="projects-wrapper">
+
       <div class="project-card">
-        <h3>Heart Disease Prediction System</h3>
-        <p>This project focused on developing a predictive model for early detection of heart disease using patient health indicators. I applied various machine learning models and identified the best-performing one through hyperparameter tuning. The model was deployed through a user-friendly Streamlit web app, helping healthcare providers assess risk and take preventive actions.</p>
-        <div class="tech-stack">
-          <span>Python</span>
-          <span>Random Forest</span>
-          <span>Streamlit</span>
-          <span>Data Science</span>
+            <h3>🤖 GenAI Agent</h3>
+            <p>Developed an AI agent leveraging LLMs, LangChain, and LanGraph to automate order processing, account management, and inventory tracking, reducing manual workload by 60%.</p>
+            <div class="tech-stack">
+                <span>LangChain</span>
+                <span>LangGraph</span>
+                <span>LLMs</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+          </a>
         </div>
-      </div>
-      
-      <div class="project-card">
-        <h3>SympCheck: AI-Powered Symptom Checker</h3>
-        <p>Designed and developed a Natural Language Processing system that predicts possible diseases based on user-input symptoms. Integrated a classification model with a front-end built using Streamlit. Focused on enhancing healthcare accessibility by enabling quick, AI-driven health assessments for users.</p>
-        <div class="tech-stack">
-          <span>Python</span>
-          <span>NLP</span>
-          <span>Naive Bayes</span>
-          <span>Streamlit</span>
+
+        <div class="project-card">
+          <h3>📚🔍RAG-Based Chatbot</h3>
+          <p>Created a Retrieval-Augmented Generation (RAG) Chatbot using LLM and FAISS vector database, delivering 90% accurate, citation-backed responses sourced from domain-specific data.</p>
+          <div class="tech-stack">
+            <span>LangChain</span>
+            <span>FAISS</span>
+            <span>LLM</span>
+            <span>Prompt Engineering</span>
+          </div>
+          <a href="https://github.com/Venkatalakshmikottapalli/rag-nlp-tutor-backend" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+          </a>
         </div>
-      </div>
-      
-      <div class="project-card">
-        <h3>SmartMarket Campaign Response Predictor</h3>
-        <p>Built a predictive model to estimate subscriber response rates to targeted marketing campaigns. Used feature engineering and model evaluation techniques to improve performance. Insights from this model helped optimize campaign delivery strategy over a 26-week period.</p>
-        <div class="tech-stack">
-          <span>XGBoost</span>
-          <span>Python</span>
-          <span>Data Analysis</span>
-          <span>Marketing Analytics</span>
+
+        <div class="project-card">
+            <h3>📘 Fraud Detection</h3>
+            <p>Built an end-to-end ML pipeline using Python and SQL for financial fraud detection, applying supervised and unsupervised learning techniques to achieve 96% accuracy.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Scikit-learn</span>
+                <span>Supervised models</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/E-commerce-Fraud-Detection" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
         </div>
-      </div>
-      
+        <div class="project-card">
+            <h3>🔄 Migrating Postgres Database to Neo4j</h3>
+            <p>Executed migration of relational data from PostgreSQL to Neo4j graph database, optimizing query performance and enabling complex relationship analysis using the Chinook dataset.
+            </p>
+            <div class="tech-stack">
+                <span>SQL</span>
+                <span>Cypher</span>
+                <span>Neo4j</span>
+                <span>PostgreSQL</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🩺 SympCheck: Disease Prediction Chatbot</h3>
+            <p>Designed an NLP chatbot using Hugging Face models for predicting potential diseases from reported symptoms, deployed with Azure and Streamlit for easy access.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Hugging Face</span>
+                <span>Azure</span>
+                <span>Streamlit</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/SympCheckBackend" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>❤️ Heart Disease Prediction</h3>
+            <p>Developed a heart disease risk prediction model with 94% accuracy using Random Forest, featuring a web app and API using Streamlit for real-time assessment.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Random Forest</span>
+                <span>Streamlit</span>
+                <span>FlaskAPI</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/Heart-Risk-Prediction" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>📉 Customer Churn Prediction</h3>
+            <p>Built a model to predict customer churn using customer behavioral data, integrated with FlaskAPIs and Streamlit UI to help improve retention strategies.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>XGBoost</span>
+                <span>FlaskAPI</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/Customer-Churn-Prediction" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>👥 Customer Segmentation</h3>
+            <p>Performed customer segmentation using clustering techniques to enable targeted marketing and personalized customer experiences.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>K-Means Clustering</span>
+                <span>EDA</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🚗 Adoption Rates of EV Vehicles</h3>
+            <p>Analyzed electric vehicle adoption trends and factors affecting growth for for 50 USA states using WebScraping, data science and visualization techniques.</p>
+            <div class="tech-stack">
+                <span>Data Analysis</span>
+                <span>BeautifulSoup</span>
+                <span>Selenium</span>
+
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🏠 House Price Prediction</h3>
+            <p>Developed regression models using Scikit-learn to predict house prices from key features, achieving 92% accuracy after preprocessing and feature selection.</p>
+            <div class="tech-stack">
+                <span>Feature Engineering</span>
+                <span>Regression</span>
+                <span>Seaborn</span>
+
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/House-Price-Prediction" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🌊 Microplastic Detection in Water Sources</h3>
+            <p>Built an ML model to detect microplastics in water sources, supporting environmental monitoring and research.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Data Acquisition</span>
+                <span>ETL</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>📊 Impacts of Sleep on Mental Health – Data Analysis</h3>
+            <p>Conducted data analysis on the relationship between sleep patterns and mental health using the NHANES dataset. Identified correlations between sleep duration and lifestyle factors to uncover key behavioral insights.</p>
+            <div class="tech-stack">
+                <span>R</span>
+                <span>EDA</span>
+                <span>Data Analysis</span>
+                <span>Seaborn</span>
+                <span>Matplotlib</span>
+
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+         
     </div>
 
-    <div class="more-proj">
+   <!-- <div class="more-proj">
       <a href="project.html" class="read1">More Projects</a>
+    </div> -->
+    <div class="more-proj">
+    <a href="https://github.com/Venkatalakshmikottapalli" class="read1">Visit My GitHub</a>
     </div>
+
   </section>
   
+  <!-- Experience and Education Section --> 
+  <section id="experience">
+  <div class="container">
+      <h1 class="section-title">Experience</h1>
+      
+      <!-- First Experience Card -->
+      <div class="education-card">
+          <div class="education-header">
+              <h2>Machine Learning Co op</h2>
+              <h3>ZSAnalytics LLC</h3>
+              <span class="year-tag">May 2024 - Present</span>
+          </div>
+          
+          <div class="education-body">
+              <div class="logo-container">
+                  <img src="Images/zsanalytics.png" alt="ZSAnalytics Logo">
+              </div>
+              
+              <div class="education-content">
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Built predictive models using Python and Scikit-learn on 1M+ email campaign data, optimizing campaign performance and achieving a 97% response rate.
+                      </div>
+                  </div>
+                  
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Conducted data extraction using SQL on 10k+ subscriber campaign data and performed comprehensive data mining to uncover customer behavior trends.
+                      </div>
+                  </div>
+
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Executed advanced Data Analysis and Feature Engineering using Statistics, NumPy and Pandas, creating 10+ variables with tuning that improved model precision by 12%.
+                      </div>
+                  </div>
+
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Performed Model Evaluation using Statistical Analysis, gain charts, lift curves, and A/B testing.
+                      </div>
+                  </div>
+
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Optimized email marketing strategy by targeting the top 25% of high-response users, reducing delivery costs by 75% while maintaining 98% engagement.
+                      </div>
+                  </div>
+
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Utilized Excel and PowerPoint for data presentation and reporting insights effectively.
+                      </div>
+                  </div>
+
+                  
+                  <div class="clearfix">
+                      <a href="https://zsanalytics.com/" target="_blank" class="visit-btn">Visit Website</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Second Experience Card -->
+      <div class="education-card">
+          <div class="education-header">
+              <h2>Software Developer (AI/ML)</h2>
+              <h3>Mee Sahayakaari</h3>
+              <span class="year-tag">Jan 2019 - Dec 2021</span>
+          </div>
+          
+          <div class="education-body">
+              <div class="logo-container">
+                  <img src="Images/meesahayakaarilog.png" alt="Mee Sahayakaari Logo">
+              </div>
+              
+              <div class="education-content">
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Engineered an AI-powered chatbot using Dialogflow, Translate API, and DuckDuckGo search integration, providing bilingual voice assistance to 5,000+ users. 
+                      </div>
+                  </div>
+                  
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Built cross-platform mobile applications using the Ionic framework, achieving 90% customer satisfaction through responsive UI/UX.
+                      </div>
+                  </div>
+
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Implemented Continuous Integration and Continuous Deployment (CI/CD) pipelines in Azure DevOps, accelerating release cycles by 30%. 
+                      </div>
+                  </div>
+
+                  <div class="education-item">
+                      <div class="bolt-icon">⚡</div>
+                      <div class="education-text">
+                          Integrated and deployed the chatbot system, reducing user onboarding time by 40%.
+                      </div>
+                  </div>
+
+                  
+                  <div class="clearfix">
+                      <a href=" " target="_blank" class="visit-btn">Visit Website</a>
+                  </div>
+              </div>
+          </div>
+      </div>
   
+  </section>
   
+  <section id="education">
+      <div class="container">
+          <h1 class="section-title">Education</h1>
+          
+          <!-- First Education Card -->
+          <div class="education-card">
+              <div class="education-header">
+                  <h2>Yeshiva University</h2>
+                  <h3>Master’s in Artificial Intelligence</h3>
+                  <span class="year-tag">2024 - Expected Dec 2025</span>
+              </div>
+              
+              <div class="education-body">
+                  <div class="logo-container">
+                      <img src="Images/yeshiva_logo.png" alt="Yeshiva University Logo">
+                  </div>
+                  
+                  <div class="education-content">
+                      <div class="education-item">
+                          <div class="bolt-icon">⚡</div>
+                          <div class="education-text">
+                              GPA: 4.0 | Relevant Courses: Machine Learning, AI, Data Science, Neural Networks & Deep Learning, Advanced NLP, Cloud Computing with AWS.
+                          </div>
+                      </div>
+                      
+                      <div class="education-item">
+                          <div class="bolt-icon">⚡</div>
+                          <div class="education-text">
+                              Engaged in various hands-on projects applying AI techniques across real-world datasets and problem domains.
+                          </div>
+                      </div>
+                      
+                      <div class="clearfix">
+                          <a href="https://www.yu.edu/" target="_blank" class="visit-btn">Visit Website</a>
+                      </div>
+                  </div>
+              </div>
+          </div>           
+          <!-- Second Education Card -->
+          <div class="education-card">
+              <div class="education-header">
+                  <h2>Adikavi Nannaya University</h2>
+                  <h3>Bachelor’s in Mathematics</h3>
+                  <span class="year-tag">June 2015 – May 2018</span>
+              </div>
+              
+              <div class="education-body">
+                  <div class="logo-container">
+                      <img src="Images/akn_university_logo.png" alt="Adikavi Nannaya University Logo">
+                  </div>
+
+                  <div class="education-content">
+                      <div class="education-item">
+                          <div class="bolt-icon">⚡</div>
+                          <div class="education-text">
+                              GPA: 3.8 | Relevant Courses: Statistics, Probability, Linear Algebra, Matrices, Calculus, Geometry.
+                          </div>
+                      </div>
+                      
+                      <div class="education-item">
+                          <div class="bolt-icon">⚡</div>
+                          <div class="education-text">
+                              Built a strong foundation in mathematical concepts and problem-solving approaches used in data science and machine learning.
+                          </div>
+                      </div>
+                      
+                      <div class="clearfix">
+                          <a href="https://www.aknu.edu.in/" target="_blank" class="visit-btn">Visit Website</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="awards">
+      <!-- Certification -->
+      <div class="portfolio-container">
+          <h1 class="portfolio-heading">Certifications/Trainings</h1>
+          
+          <div class="cert-container">
+              <!-- First Row -->
+              <div class="cert-item">
+                  <div class="cert-header bg-stanford">
+                      <img src="Images/predictivemodel.png" alt="Predictive Models Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">Excellence in Predictive Models</h3>
+                      <p class="cert-author">- Yeshiva University</p>
+                  </div>
+              </div>
+              
+              <div class="cert-item">
+                  <div class="cert-header bg-deeplearning">
+                      <img src="Images/datacamp.png" alt="datacamp Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">Advanced NLP with spaCy</h3>
+                      <p class="cert-author">- dataCamp</p>
+                  </div>
+              </div>
+              
+              <div class="cert-item">
+                  <div class="cert-header bg-google">
+                      <img src="Images/datacampnlp.png" alt="datacamp Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">Natural Language Processing</h3>
+                      <p class="cert-author">- datacamp</p>
+                  </div>
+              </div>
+              
+              <!-- Second Row -->
+              <div class="cert-item">
+                  <div class="cert-header bg-ibm">
+                      <img src="Images/hackerank.png" alt="hackerank Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">SQL, Problem-Solving</h3>
+                      <p class="cert-author">- HackeRank</p>
+                  </div>
+              </div>
+              
+              <div class="cert-item">
+                  <div class="cert-header bg-microsoft">
+                      <img src="Images/gfg.png" alt="Geeks for Geeks Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">Data Structures and Algorithms, Masters System Design</h3>
+                      <p class="cert-author">- Geeks for Geeks</p>
+                  </div>
+              </div>
+              
+              <div class="cert-item">
+                  <div class="cert-header bg-ibm">
+                      <img src="Images/datacampR.png" alt="DatacampR Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">R Language foundation</h3>
+                      <p class="cert-author">- datacamp</p>
+                  </div>
+              </div>
+              
+              <div class="cert-item">
+                  <div class="cert-header bg-tensorflow">
+                      <img src="Images/datacampR2.png" alt="DatacampR Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">R Language Intermediate</h3>
+                      <p class="cert-author">- datacamp</p>
+                  </div>
+              </div>
+              <!--
+              <div class="cert-item">
+                  <div class="cert-header bg-fullstack">
+                      <img src="fullstack_logo.png" alt="Fullstack Logo">
+                  </div>
+                  <div class="cert-body">
+                      <h3 class="cert-name">Fullstack Development</h3>
+                      <p class="cert-author">- Jogesh Muppala</p>
+                  </div>
+              </div> -->
+          </div>
+      </div>
+  </section>
+
   <section id="testimonial">
     <div class="section-heading" >
       <h1 class="sub-t1">Real Feedback, <span>Real Result</span></h1>
@@ -583,11 +906,13 @@
         </div>
     </div>
     
-    <!-- Right side with form -->
-    <div class="contact-form">
-      <h2 class="con">Contact<span>Me</span></h2>
-        <h2 class="section-title">Let's Discuss Your Project</h2>
-        <p class="section-description">Always available for freelancing if the right project comes along. Feel free to contact me.</p>
+   <!-- Right side with form -->
+<div class="contact-form">
+  <h2 class="con">Contact<span>Me</span></h2>
+  <h2 class="section-title">Let’s Collaborate</h2>
+  <p class="section-description">I’m always open to new opportunities and collaborations. Feel free to get in touch to talk about your ideas.</p>
+</div>
+
         
         <!-- <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="e8461bd8-b0b5-4293-8a6c-fb8bb1036969">

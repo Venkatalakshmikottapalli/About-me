@@ -10,7 +10,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <header>
+
+<header>
     <div class="logo">Venkatalakshmi's Portfolio</div>
     <div class="hamburger-menu" id="hamburgerMenu">
         <span></span>
@@ -18,163 +19,220 @@
         <span></span>
     </div>
     <nav id="navbar">
-      <a href="index.html">Home</a>
-      <a href="index.html">About Me</a>
-      <a href="index.html">Skills</a>
-      <a href="index.html">Education</a>
-      <a href="index.html">Projects</a>
-      <a href="index.html">Contact</a>
-      <a href="Resume/Venkatalakshmi_Kottapalli_Resume.pdf" download="Venkatalakshmi_Kottapalli_Resume.pdf">Download Resume</a>
+        <a href="index.html">Home</a>
+        <a href="index.html">About Me</a>
+        <a href="index.html">Skills</a>
+        <a href="index.html">Education</a>
+        <a href="index.html">Projects</a>
+        <a href="index.html">Contact</a>
+        <a href="Resume/Venkatalakshmi_Kottapalli_Resume.pdf" download>Download Resume</a>
     </nav>
     <div class="actions">
-      <span class="dark-mode-toggle">🌙</span>
+        <span class="dark-mode-toggle">🌙</span>
     </div>
 </header>
 
-      <main class="content" id="home">
-        <div class="hero">
-          <div class="right">
-            <img src="Images/pro1.png" alt="Placeholder Image">
-          </div>
-
-          <div class="left">
+<main class="content" id="home">
+    <div class="hero">
+        <div class="right">
+            <img src="Images/pro1.png" alt="Project Image">
+        </div>
+        <div class="left">
             <h1>Projects</h1>
             <p>
-              My projects make use of a vast variety of the latest technology tools.
-              My best experience is to create Data Science, Machine Learning and AI
-              projects and deploy them to web applications using cloud infrastructure.
+                My projects leverage modern tools in Data Science, Machine Learning, and AI.
+                I enjoy building intelligent solutions and deploying them as web applications using cloud technologies.
             </p>
-          </div>
         </div>
-      </main>
-        <section>
-          <div class="project-cards">
-            <div class="project-card">
-              <h3>📘 Fraud Detection</h3>
-              <p>Developed a fraud detection model using Python, SQL, and Machine Learning algorithms integrated with APIs. The model achieved 96% accuracy in identifying fraudulent claims and provides real-time alerts for suspicious activities to support financial and insurance organizations.</p>
-              <div class="tech-stack">
+    </div>
+</main>
+
+<!-- Projects Section -->
+<section>
+    <div class="project-cards">
+
+    
+      <div class="project-card">
+            <h3>🤖 GenAI Agent</h3>
+            <p>Developed an AI agent leveraging LLMs, LangChain, and LanGraph to automate order processing, account management, and inventory tracking, reducing manual workload by 60%.</p>
+            <div class="tech-stack">
+                <span>LangChain</span>
+                <span>LangGraph</span>
+                <span>LLMs</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>📚🔍RAG-Based Chatbot</h3>
+          <p>Created a Retrieval-Augmented Generation (RAG) Chatbot using LLM and FAISS vector database, delivering 90% accurate, citation-backed responses sourced from domain-specific data.</p>
+          <div class="tech-stack">
+            <span>LangChain</span>
+            <span>FAISS</span>
+            <span>LLM</span>
+            <span>Prompt Engineering</span>
+          </div>
+          <a href="https://github.com/Venkatalakshmikottapalli/rag-nlp-tutor-backend" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+
+        <div class="project-card">
+            <h3>📘 Fraud Detection</h3>
+            <p>Built an end-to-end ML pipeline using Python and SQL for financial fraud detection, applying supervised and unsupervised learning techniques to achieve 96% accuracy.</p>
+            <div class="tech-stack">
                 <span>Python</span>
+                <span>Scikit-learn</span>
+                <span>Supervised models</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/E-commerce-Fraud-Detection" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+        <div class="project-card">
+            <h3>🔄 Migrating Postgres Database to Neo4j</h3>
+            <p>Executed migration of relational data from PostgreSQL to Neo4j graph database, optimizing query performance and enabling complex relationship analysis using the Chinook dataset.
+            </p>
+            <div class="tech-stack">
                 <span>SQL</span>
-                <span>APIs</span>
-                <span>Machine Learning</span>
-              </div>
-              <!--<span>Created on Spring 2025</span>-->
+                <span>Cypher</span>
+                <span>Neo4j</span>
+                <span>PostgreSQL</span>
             </div>
-        
-            <div class="project-card">
-              <h3>🩺 X-ray Detection using CNN</h3>
-              <p>Developed a deep learning model to detect heart disease from X-ray images. Using PyTorch and Convolutional Neural Networks (CNNs), the model achieved 75% accuracy in image classification, supporting radiologists in early diagnosis.</p>
-              <div class="tech-stack">
-                <span>Python</span>
-                <span>PyTorch</span>
-                <span>CNN</span>
-                <span>Deep Learning</span>
-              </div>
-             <!-- <span>Created on Spring 2025</span> -->
-            </div>
-        
-            <div class="project-card">
-              <h3>📉 Customer Churn Prediction</h3>
-              <p>Built a customer churn prediction model to identify potential churners using customer behavior data. Integrated the model with a user interface and API for seamless deployment and accessibility in customer retention strategies.</p>
-              <div class="tech-stack">
-                <span>Python</span>
-                <span>Machine Learning</span>
-                <span>API</span>
-                <span>UI</span>
-              </div>
-             <!-- <span>Created on Spring 2025</span> -->
-            </div>
-        
-            <div class="project-card">
-              <h3>🩺 SympCheck: Disease Prediction Chatbot</h3>
-              <p>Developed an NLP-powered chatbot using Hugging Face Transformers to identify diseases based on user-entered symptoms. Deployed on Azure with a Streamlit interface and robust backend API, the system assists users in self-assessment and early disease detection.</p>
-              <div class="tech-stack">
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🩺 SympCheck: Disease Prediction Chatbot</h3>
+            <p>Designed an NLP chatbot using Hugging Face models for predicting potential diseases from reported symptoms, deployed with Azure and Streamlit for easy access.</p>
+            <div class="tech-stack">
                 <span>Python</span>
                 <span>Hugging Face</span>
-                <span>NLP</span>
                 <span>Azure</span>
                 <span>Streamlit</span>
-              </div>
-             <!-- <span>Created on Spring 2025</span> -->
             </div>
-        
-            <div class="project-card">
-              <h3>❤️ Heart Risk Prediction App</h3>
-              <p>Created a heart disease risk prediction application using a Random Forest model, achieving 94% accuracy. The app features a web-based user interface and API for patient input and real-time risk assessment, aiding preventive healthcare.</p>
-              <div class="tech-stack">
+            <a href="https://github.com/Venkatalakshmikottapalli/SympCheckBackend" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>❤️ Heart Disease Prediction</h3>
+            <p>Developed a heart disease risk prediction model with 94% accuracy using Random Forest, featuring a web app and API using Streamlit for real-time assessment.</p>
+            <div class="tech-stack">
                 <span>Python</span>
                 <span>Random Forest</span>
                 <span>Streamlit</span>
-                <span>API</span>
-              </div>
-            <!--  <span>Created on Fall 2024</span> -->
+                <span>FlaskAPI</span>
             </div>
-        
-            <div class="project-card">
-              <h3>🧠 RAG-Based Chatbot</h3>
-              <p>Developed an AI-powered chatbot using Retrieval-Augmented Generation (RAG) and Mistral-7B LLM to answer queries from the "Speech and Language Processing" textbook. The chatbot delivers citation-backed answers, enhancing study support for students and researchers.</p>
-              <div class="tech-stack">
-                <span>Python</span>
-                <span>RAG</span>
-                <span>Mistral-7B</span>
-                <span>LLM</span>
-              </div>
-             <!-- <span>Created on Spring 2025</span> -->
-            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/Heart-Risk-Prediction" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
 
-            <div class="project-card">
-              <h3>📬 Email Campaign Optimization – ZSAnalytics LLC</h3>
-              <p>Boosted the performance of email marketing campaigns by applying advanced machine learning models in Python and SQL-based data acquisition. Through robust feature engineering, the solution identified the top 25% of highly responsive subscribers, significantly improving targeting effectiveness.</p>
-              <div class="tech-stack">
+        <div class="project-card">
+            <h3>📉 Customer Churn Prediction</h3>
+            <p>Built a model to predict customer churn using customer behavioral data, integrated with FlaskAPIs and Streamlit UI to help improve retention strategies.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>XGBoost</span>
+                <span>FlaskAPI</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/Customer-Churn-Prediction" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>👥 Customer Segmentation</h3>
+            <p>Performed customer segmentation using clustering techniques to enable targeted marketing and personalized customer experiences.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>K-Means Clustering</span>
+                <span>EDA</span>
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🚗 Adoption Rates of EV Vehicles</h3>
+            <p>Analyzed electric vehicle adoption trends and factors affecting growth for for 50 USA states using WebScraping, data science and visualization techniques.</p>
+            <div class="tech-stack">
+                <span>Data Analysis</span>
+                <span>BeautifulSoup</span>
+                <span>Selenium</span>
+
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🏠 House Price Prediction</h3>
+            <p>Developed regression models using Scikit-learn to predict house prices from key features, achieving 92% accuracy after preprocessing and feature selection.</p>
+            <div class="tech-stack">
+                <span>Feature Engineering</span>
+                <span>Regression</span>
+                <span>Seaborn</span>
+
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli/House-Price-Prediction" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>🌊 Microplastic Detection in Water Sources</h3>
+            <p>Built an ML model to detect microplastics in water sources, supporting environmental monitoring and research.</p>
+            <div class="tech-stack">
                 <span>Python</span>
                 <span>SQL</span>
-                <span>Machine Learning</span>
-                <span>Feature Engineering</span>
-              </div>
-             <!-- <span>Created at ZSAnalytics, May 2024 – Present</span> -->
+                <span>Data Acquisition</span>
+                <span>ETL</span>
             </div>
-        
-            <div class="project-card">
-              <h3>🔍 NLP-Based Text Similarity Ranking – ZSAnalytics LLC</h3>
-              <p>Enhanced text analysis precision by 40% using BERT and NLP techniques to identify and rank the most semantically relevant Common Core State Standards (CCSS) IDs based on user queries. This project significantly improved educational content recommendation quality.</p>
-              <div class="tech-stack">
-                <span>Python</span>
-                <span>BERT</span>
-                <span>NLP</span>
-                <span>Text Ranking</span>
-              </div>
-              <span>Created at ZSAnalytics, May 2024 – Present</span> 
-            </div>
-        
-            <div class="project-card">
-              <h3>🤖 Mee Sahayakaari: AI Voice Assistant for the Underprivileged</h3>
-              <p>Developed <i>Mee Sahayakaari</i>, an AI-powered voice chatbot application designed to assist illiterate users in accessing digital resources. Integrated Dialogflow, DuckDuckGo, Google Translator, and speech APIs to enable real-time voice-to-text and information delivery. The app was optimized for low-latency performance and user retention across platforms.</p>
-              <div class="tech-stack">
-                <span>Dialogflow</span>
-                <span>DuckDuckGo</span>
-                <span>Ionic</span>
-                <span>Speech APIs</span>
-                <span>Google Translate</span>
-              </div>
-              <span>Created at Mee Sahayakaari, Jan 2019 – Dec 2021</span>
-            </div>
-
-          </div>
-        </section>
-
-        <div class="more-projects">
-          <a href="https://github.com/Venkatalakshmikottapalli" class="but1">GitHub</a>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
         </div>
-      </section>
-        <!-- Footer Section -->
-  <footer>
-    <div class="footer-content">
-      <p>Made with <span class="heart">&hearts;</span> by Venkatalakshmi Kottapalli</p>
+
+        <div class="project-card">
+            <h3>📊 Impacts of Sleep on Mental Health – Data Analysis</h3>
+            <p>Conducted data analysis on the relationship between sleep patterns and mental health using the NHANES dataset. Identified correlations between sleep duration and lifestyle factors to uncover key behavioral insights.</p>
+            <div class="tech-stack">
+                <span>R</span>
+                <span>EDA</span>
+                <span>Data Analysis</span>
+                <span>Seaborn</span>
+                <span>Matplotlib</span>
+
+            </div>
+            <a href="https://github.com/Venkatalakshmikottapalli" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> Source Code
+            </a>
+        </div>
+         
     </div>
-  </footer>
+</section>
 
+<!-- GitHub Button -->
+<div class="more-projects">
+    <a href="https://github.com/Venkatalakshmikottapalli" class="but1">Visit My GitHub</a>
+</div>
 
-        <script src="script.js"></script>
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>Made with <span class="heart">&hearts;</span> by Venkatalakshmi Kottapalli</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
-

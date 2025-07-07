@@ -1,4 +1,4 @@
- /* styles.css */
+/* styles.css */
 * {
   margin: 0;
   padding: 0;
@@ -576,32 +576,28 @@ body.light-mode .social-media a:hover {
 
 /* Skills Section */
 #skill {
-  padding: 50px;
-  padding-top: 0;
+  padding: 50px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
 }
 
-container1 {
-  /* max-width: 600px; */
-  width: 600px;
-  /*height: 500px; */
-  padding: 75px 90px;
-  margin-left: 120px;
-  padding-top: 5px;
-  margin-bottom: 20px;
+
+.container1, .container2 {
+  width: 90%;
+  max-width: 700px; /* Reduced from 1000px */
+  margin: auto;
+  padding: 30px;
 }
 
-container2 {
-  /* max-width: 600px; */
-  width: 600px;
-  /*height: 500px; */
-  padding: 75px 90px;
-  margin-left: 400px;
-  padding-top: 5px;
-  margin-bottom: 20px;
+
+
+.container2 {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
 }
 
 .heading1 {
@@ -626,9 +622,10 @@ container2 {
 .progress-line {
   position: relative;
   background-color: #e0e0e0;
-  height: 20px;
-  border-radius: 10px;
+  height: 25px;  /* <- Increased thickness */
+  border-radius: 15px;
   overflow: hidden;
+  width: 100%;
 }
 
 .progress-line span {
@@ -839,7 +836,7 @@ container2 {
 
 .section-heading h2 {
   font-size: 3rem;
-  color: #1d4ed8; /* Blue theme */
+  color: #facc15;
   margin-bottom: 10px;
   margin-top: 20px;
   animation: slideIn 1s ease-in-out;
@@ -874,6 +871,7 @@ container2 {
   margin-bottom: 10px;
 }
 
+
 .project-card p {
   font-size: 1rem;
   color: #e2e8f0;
@@ -897,7 +895,24 @@ container2 {
   padding: 10px 20px;
   font-size: 1.2rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 8px;.tech-stack span {
+  display: inline-block;
+  background-color: #facc15; /* Yellow background */
+  color: #1e293b; /* Dark text for readability */
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tech-stack span:hover {
+  background-color: #fde68a;
+  color: #1e293b;
+  cursor: pointer;
+}
+
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -1216,3 +1231,33 @@ body.light-mode footer {
 .project-card a:hover {
   color: #0056b3; /* darker on hover */
 }
+
+/* Research project images */
+.research-img {
+  width: 100%;           /* Make image fill the card width */
+  max-width: 380px;      /* Limit max width for consistency */
+  height: 240px;         /* Fixed height for uniformity */
+  object-fit: cover;     /* Crop to fit nicely */
+  border-radius: 10px;   /* Rounded corners */
+  display: block;
+  margin: 0 auto 16px auto; /* Center and add space below */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+  .research-img {
+    max-width: 100%;
+    height: 100px;
+  }
+}
+
+.github-link {
+  display: inline-block;
+  margin: 1rem auto 0;
+  text-align: center;
+}
+.project-card {
+  text-align: center; /* This centers inline-block children */
+}
+
+

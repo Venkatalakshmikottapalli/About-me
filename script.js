@@ -18,7 +18,7 @@ navLinks.forEach(link => {
 
 
 
-const texts = ["Venkatalakshmi Kottapalli", "AI-ML Practitioner", "Data Scientist ", "Azure DevOps Engineer", "Full Stack Developer" ];
+const texts = ["Venkatalakshmi Kottapalli", "AI Practitioner", "Data Scientist ", "Machine Learning Engineer" ];
 let index = 0;
 const dynamicText = document.getElementById("dynamic-text");
 const toggleButton = document.querySelector(".dark-mode-toggle");
