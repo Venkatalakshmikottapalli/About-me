@@ -895,7 +895,12 @@ body.light-mode .social-media a:hover {
   padding: 10px 20px;
   font-size: 1.2rem;
   border: none;
-  border-radius: 8px;.tech-stack span {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tech-stack span {
   display: inline-block;
   background-color: #facc15; /* Yellow background */
   color: #1e293b; /* Dark text for readability */
@@ -911,10 +916,6 @@ body.light-mode .social-media a:hover {
   background-color: #fde68a;
   color: #1e293b;
   cursor: pointer;
-}
-
-  cursor: pointer;
-  transition: background 0.3s;
 }
 
 .more-projects button:hover {
