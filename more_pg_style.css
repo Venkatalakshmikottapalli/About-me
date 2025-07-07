@@ -203,6 +203,11 @@ header .actions {
   margin-top: 10px;
 }
 
+.project-card {
+  text-align: center; /* This centers inline-block children */
+}
+
+
 .tech-stack span {
   display: inline-block;
   background: #2563eb; /* Blue tags */
