@@ -194,7 +194,7 @@ body.light-mode .hero .left input {
 
 
 .hero .right img {
-  margin-top: 1rem; 
+  margin-top: 1rem;
   padding-top: 110px;
   padding-bottom: 40px;      /* Use relative units for better responsiveness */
   max-width: 100%;           /* Allow image to scale with container */
@@ -204,15 +204,79 @@ body.light-mode .hero .left input {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Optional: adds depth */
 }
 
+/* New: make the hero image fit inside a circular frame */
+.profile-circle {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  overflow: hidden; /* clip image to circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6), 0 0 0 6px rgba(56,189,248,0.06);
+  background: radial-gradient(circle at 30% 30%, rgba(56,189,248,0.04), transparent 40%);
+}
+
+.profile-circle .hero-profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensure image fills circle */
+  display: block;
+}
+
+/* Zoom-in effect: increase visible crop and center face */
+.profile-circle.zoomed .hero-profile {
+  /* use object-position to nudge the image so face is centered in frame */
+  object-position: 50% 32%; /* adjust this if the crop needs to move up/down */
+  transform: scale(1.25); /* zoom level; increase/decrease as desired */
+  transition: transform 0.45s ease, object-position 0.45s ease;
+}
+
+
+
+/* Contact section profile image (smaller circle) */
+.contact-section .profile-image,
+.contact-info .profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+  border: 4px solid rgba(56,189,248,0.08);
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  margin: 0 auto 12px auto;
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
-    padding-top: 900px;
+    /* Reduce large top padding for mobile so content sits closer to header */
+    padding-top: 250px;
+    gap: 2px;
   }
   .hero .left,
   .hero .right {
     max-width: 100%;
     position: relative;
+  }
+  .profile-circle {
+    width: 260px;
+    height: 260px;
+  }
+  /* Remove extra top padding applied to the image on desktop */
+  .hero .right img,
+  .hero .right .profile-circle {
+    padding-top: 5;
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+
+  /* Ensure the main content doesn't force a large vertical height on mobile (header is fixed) */
+  main.content {
+    height: auto; /* allow content to size naturally */
+    padding-top: 70px; /* leave room for the fixed header */
   }
 }
 
@@ -460,7 +524,9 @@ body.light-mode .social-media a:hover {
   .about-img img {
     width: 150px;
     height: 150px;
-    margin-top: 220%;
+    /* Remove huge margin that pushed the image far down on small screens */
+    margin-top: 150px;
+    margin-bottom: 5px;
   }
 }
 
